@@ -1,0 +1,15 @@
+input {
+  width: 240px;
+  height: 34px;
+  padding-left: 12px;
+}
+
+form {
+  display: flex;
+  gap: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}

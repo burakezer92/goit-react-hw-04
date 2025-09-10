@@ -1,0 +1,11 @@
+.photo {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.photo:hover {
+  transform: scale(1.02);
+  border: 2px white solid;
+  cursor: pointer;
+}
