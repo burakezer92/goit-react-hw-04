@@ -1,15 +1,15 @@
-input {
+.searchInput {
   width: 240px;
   height: 34px;
   padding-left: 12px;
 }
 
-form {
+.form {
   display: flex;
   gap: 24px;
 }
 
-header {
+.header {
   display: flex;
   justify-content: center;
 }

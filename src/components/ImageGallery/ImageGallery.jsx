@@ -4,7 +4,7 @@ import css from "./ImageGallery.module.css";
 function ImageGallery(props) {
   props.ka(props.regular);
   return (
-    <ul>
+    <ul className={css.gallery}>
       {props.imageList.map((image) => (
         <ImageCard
           o={props.o}

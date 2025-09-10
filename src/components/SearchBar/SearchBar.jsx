@@ -2,10 +2,10 @@ import css from "./SearchBar.module.css";
 
 function SearchBar(props) {
   return (
-    <header>
-      <form>
+    <header className={css.header}>
+      <form className={css.form}>
         <input
-          className="input"
+          className={css.searchInput}
           type="text"
           autoComplete="off"
           autoFocus
